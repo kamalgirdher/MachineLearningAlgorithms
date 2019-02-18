@@ -3,6 +3,8 @@
 import pandas as pd
 
 df=pd.read_csv('inp.csv')
+
+#df=pd.read_csv('inp.csv',error_bad_lines=False)
                
 #df=pd.read_csv('inp.csv', usecols=['Age','Name'])
 
